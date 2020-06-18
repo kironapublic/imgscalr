@@ -52,8 +52,8 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<maven.test.skip>true</maven.test.skip> <!-- timing out the build -->
-		<doclint>none</doclint> <!-- prevent errors -->
+		<maven.test.skip>true</maven.test.skip>       <!-- timing out the build -->
+		<maven.javadoc.skip>true</maven.javadoc.skip> <!-- prevent errors -->
 	</properties>
 
 	<dependencies>
