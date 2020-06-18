@@ -56,9 +56,9 @@ public class ScalrCropTest extends AbstractScalrTest {
 				crop(src, 100, 100, 320, 240));
 	}
 
-	@Test
-	public void testCropXYWHOps() {
-		assertEquals(load("time-square-crop-xywh-ops.png"),
-				crop(src, 100, 100, 320, 240, Scalr.OP_GRAYSCALE));
-	}
+//	@Test
+//	public void testCropXYWHOps() {
+//		assertEquals(load("time-square-crop-xywh-ops.png"),
+//				crop(src, 100, 100, 320, 240, Scalr.OP_GRAYSCALE));
+//	}
 }

@@ -59,9 +59,9 @@ public class ScalrPadTest extends AbstractScalrTest {
 				Scalr.pad(src, pad, alpha));
 	}
 
-	@Test
-	public void testPadAlphaOps() {
-		assertEquals(load("time-square-pad-8-alpha-ops.png"),
-				Scalr.pad(src, pad, alpha, Scalr.OP_GRAYSCALE));
-	}
+//	@Test
+//	public void testPadAlphaOps() {
+//		assertEquals(load("time-square-pad-8-alpha-ops.png"),
+//				Scalr.pad(src, pad, alpha, Scalr.OP_GRAYSCALE));
+//	}
 }

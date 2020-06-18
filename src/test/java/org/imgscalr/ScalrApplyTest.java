@@ -42,11 +42,11 @@ public class ScalrApplyTest extends AbstractScalrTest {
 		assertEquals(load("time-square-apply-1.png"), apply(src, OP_ANTIALIAS));
 	}
 
-	@Test
-	public void testApply4() {
-		assertEquals(
-				load("time-square-apply-4.png"),
-				apply(src, Scalr.OP_ANTIALIAS, OP_BRIGHTER, OP_DARKER,
-						OP_GRAYSCALE));
-	}
+//	@Test
+//	public void testApply4() {
+//		assertEquals(
+//				load("time-square-apply-4.png"),
+//				apply(src, Scalr.OP_ANTIALIAS, OP_BRIGHTER, OP_DARKER,
+//						OP_GRAYSCALE));
+//	}
 }

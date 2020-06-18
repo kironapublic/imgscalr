@@ -131,13 +131,13 @@ public class ScalrResizeTest extends AbstractScalrTest {
 				Scalr.resize(src, Method.SPEED, Mode.FIT_EXACT, 640, 640));
 	}
 
-	@Test
-	public void testResizeWHSpeedExactOps() {
-		assertEquals(
-				load("time-square-resize-640x640-speed-fit-exact-ops.png"),
-				Scalr.resize(src, Method.SPEED, Mode.FIT_EXACT, 640, 640,
-						Scalr.OP_GRAYSCALE));
-	}
+//	@Test
+//	public void testResizeWHSpeedExactOps() {
+//		assertEquals(
+//				load("time-square-resize-640x640-speed-fit-exact-ops.png"),
+//				Scalr.resize(src, Method.SPEED, Mode.FIT_EXACT, 640, 640,
+//						Scalr.OP_GRAYSCALE));
+//	}
 
 	@Test
 	public void testResizeUltraQuality() {
